@@ -1,0 +1,44 @@
+style(type="text/css").
+  h1 {
+    text-align: center;
+
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .info {
+    border: 1px solid black;
+    width: 30%; 
+  }
+
+html
+    body
+        h1 Welcome to the Landing Page!
+        |
+        #container
+            #postinfo.info
+                a(href="posts") Posts
+                |
+                p Check out this section to see what an example post might look like
+            #commentinfo.info
+                a(href="comments") Comments
+                |
+                p Check out this section to see what an example comment might look like
+            #pictureinfo.info
+                a(href="pictures") Pictures
+                |
+                p Check out this section to see what an example picture might look like
+
